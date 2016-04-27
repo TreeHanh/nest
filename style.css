@@ -1,0 +1,414 @@
+@charset "UTF-8";
+
+.container-fixed {
+    max-width: 1080px;
+	margin: 0 auto;
+}
+body {
+    font-family: "Avenir Medium", "Muli", "Questrial";
+	font-style: normal;
+}
+
+
+/*Navigation Starts*/
+nav {
+font-family: "Avenir Medium", "Muli", "Questrial";
+	font-size: 0.85em;
+	background-color: #B7B7B7;
+	color: #FFFFFF;
+	font-style: normal;
+	font-weight: 300px;
+	padding-top: 10px;
+    font-weight: bold;
+    text-align: center;
+	clear: both;  
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  margin-bottom: -50px;
+  margin-top: -10px;
+}
+.navbar-nav > li{
+  padding-left: 27px;
+  padding-right: 27px;
+}
+* {
+  border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+}
+/*Navigation Endss*/
+
+
+/*Logo and Header Starts*/
+header { 
+    margin-top: 0px;
+    white-space: nowrap;
+}
+header .col-xs-12 {
+    text-align: center;
+    line-height: 50px;
+}
+header .col-sm-8 {
+    float: left;
+}
+.btn .btn-primary { 
+       font-size: 20px;
+       font-weight: bold;
+       font-family: "Avenir Medium", "Muli", "Questrial";
+       background-color: #9F418F;
+       border-color: #9F418F;
+}
+.button p {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Avenir Medium", "Muli", "Questrial";
+}
+
+/*Logo and Header Ends*/
+
+
+/*Video Starts*/
+#videogrp {
+    text-align: center;
+}
+#video {
+    width: auto;
+    text-align: center;
+    max-height: 400px;
+    height: auto;
+    margin-top: -20px;
+}
+.btn.sharp {
+	border-radius: 0;
+}
+.btn.outline {
+	background: none;
+	padding: 12px 22px;
+    text-align: center;
+}
+.btn-warning.outline {
+	border: 2px solid #eb8f34;
+	color: #eb8f34;
+}
+.btn-warning.outline:hover, 
+.btn-warning.outline:focus, 
+.btn-warning.outline:active, 
+.btn-warning.outline.active, 
+.open > .dropdown-toggle.btn-warning {
+	border-color: #eba259;
+	color: #eba259;
+}
+.btn-warning.outline:active, .btn-warning.outline.active {
+	border-color: #b87430;
+	color: #b87430;
+	box-shadow: none;
+}
+/*Video Ends*/
+
+
+/*Social Email/Icons Starts*/
+.signup-1 {
+    text-align: center;
+    padding-top: 12px;
+}
+.signup-1 .icons {
+    font-size: 25px;
+    display: inline-block;
+    padding-top: 4px;
+    padding-bottom: 10px;
+    color: #5B5C5C;
+    display: inline-block;
+}
+.email-wrap fa {
+    color: #5B5C5C;
+}
+
+
+/*Social Email/Icons Ends*/
+
+.input-group .margin-bottom-sm {
+    text-align: center;
+    width: 100px;
+}
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+h2 {
+    font-family: "Avenir Medium", "Muli", "Questrial";
+	font-style: normal;
+	font-weight: 200;
+	text-align: center;
+	margin-left: 8%;
+	margin-right: 8%;
+    font-size: 10px;
+}
+h3 {
+    font-family: "Avenir Medium", "Muli", "Questrial";
+	font-style: normal;
+	font-weight: bolder;
+	text-align: center;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 1em;
+}
+/*h4 {*/
+	/*text-align: center;
+	font-weight: 200;
+	border-style: solid;
+	font-family: 'Avenir Light';
+	font-style: normal;
+	margin-left: 42%;
+	margin-right: 42%;
+	border-width: 1px;
+}*/
+
+/*About Section Starts*/
+#about {
+	background-color: #3F403F;
+	color: #FFFFFF;
+	padding-top: 13px;
+	padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.aboutus {
+    text-align: center;
+    margin-left: 110px;
+    margin-right: 110px;
+    padding-bottom: 0px;
+}
+#about h1 {
+      font-family: "Avenir Medium", "Muli", "Questrial";
+      font-size: 25px;
+      line-height: 45px;
+}
+.mission {
+    text-align: center;
+    margin-left: 110px;
+    margin-right: 110px;
+    padding-bottom: 15px;
+}
+#about h2 {
+       font-family: "Avenir Medium", "Muli", "Questrial";
+       font-size: 20px;
+       line-height: 30px;
+}
+#about img {
+    margin-bottom: -10px;
+}
+#about .triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid red;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+}
+/*About Section Ends*/
+
+
+/*Image Section Starts*/
+#image {
+    text-align: center;
+    max-height: 400px;
+    height: auto;
+    margin-top: 0px; 
+    width: auto;
+    /*background-image: url(media/forbrands.jpg)*/
+}
+/*Image Sections Ends*/
+
+
+/*How Section Starts*/
+#how .buttonNav {
+    text-align: center;
+    padding-top: 15px;
+    line-height: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#how {
+    background-color: white;
+    margin-top: 30px;
+    font-family: "Avenir Light", "Muli", "Questrial";
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#how h3 { 
+    margin-bottom: -2px;
+    font-weight: bolder;
+    padding-top: 10px;
+    text-align: center;
+}
+#how h4 {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+/*#how p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+}*/
+#how .thumbnail {
+    border: 0 none;
+    box-shadow: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-transform: uppercase;
+}
+#how .splitter {
+    margin-top: -25px;
+    margin-bottom: -20px;
+}
+/*How Section Ends*/
+
+
+/*Involve Section Starts*/
+#involve {
+    background: #BCBAB5;
+    color: white;
+    padding-top: 12px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#involve h5 {
+    color: #3F403F;
+    margin-top: 30px;
+    font-size: 17px;
+}
+#involve p {
+    color: #3F403F;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 25px;
+}
+#involve button {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+/*Involve End Starts*/
+
+
+/*Project Section Starts*/
+#projects {
+    text-align: center;
+    background: #3F403F;
+    color: white;
+    line-height: 50px;
+    font-family: "Avenir Light", "Muli", "Questrial";
+}
+#projects img {
+    max-height: 274px;
+    max-width: inherit;
+}  
+#projects h4 {
+    margin-top: 35px;
+}
+#projects button {
+    margin-top: 0px;
+    margin-bottom: 25px;
+    clear: both;
+}
+#projects .splitter {
+    text-align: center;
+    font-size: 10px;
+    margin-top: -25px;
+}
+/*Project Section Ends*/
+
+
+/*Contact Section Starts*/
+#contact {
+    padding-top: 5px;
+    text-align: center;
+    background-color: #5B5C5C;
+    padding-bottom: 5px;
+    color: white;
+    font-family: "Avenir Medium", "Muli", "Questrial";
+}
+#contact h3 {
+    font-size: bold;
+}
+#contact .address {
+    line-height: 12px;
+    font-kerning: 10px;
+}
+#contact .email {
+    font-kerning: 10px;
+    margin-top: 15px; 
+    margin-bottom: 15px;
+}
+/*Contact Section Ends*/
+
+
+/*Footer Section Starts*/
+#backtotop {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+#backtotop img {
+    margin-top: -40;
+    margin-bottom:-20px;
+}
+
+footer {
+    max-width: 1080px;
+    font-family: "Muli", "Questrial", "Avenir Medium";
+    position: static;
+    height: 35px;
+    background-color: #B7B7B7;
+    display: inline-block;
+}
+.text-muted {
+   font-family: "Muli", "Questrial", "Avenir Medium";
+   margin-top: 9px;
+   float: left;
+   margin-left: 20px;
+}
+.signup-2 {
+    float: right;
+    padding-right: 50;
+    margin-top: 5px;
+    font-size: small;
+    margin-right: 20px;
+}
+.signup-2 .icons {
+    float: right;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #3F403F;
+}
+
+/*Footer Section Ends*/
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+    border-bottom: 52px solid transparent;
+    position: absolute;
+    top: -51px;
+    left: 50%;
+    margin-left: -52px;
+    font: 12px Arial;
+    line-height: 100px;
+}
+
+
+
+
+	
