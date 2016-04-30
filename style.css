@@ -5,10 +5,16 @@
 	margin: 0 auto;
 }
 body {
-    font-family: "Avenir Medium", "Muli", "Questrial";
+    font-family: "Avenir Light", "Muli", "Questrial";
 	font-style: normal;
+    color: white;
 }
-
+h1 {
+   font-family: "Avenir Light", "Muli", 
+}
+h2 {
+   font-family: "Avenir Light", "Muli", 
+}
 
 /*Navigation Starts*/
 nav {
@@ -21,7 +27,7 @@ font-family: "Avenir Medium", "Muli", "Questrial";
 	padding-top: 10px;
     font-weight: bold;
     text-align: center;
-	clear: both;  
+	clear: both; 
 }
 .navbar .navbar-nav {
   display: inline-block;
@@ -29,6 +35,7 @@ font-family: "Avenir Medium", "Muli", "Questrial";
   vertical-align: top;
   margin-bottom: -50px;
   margin-top: -10px;
+   font-kerning: 20px;
 }
 .navbar-nav > li{
   padding-left: 27px;
@@ -46,125 +53,88 @@ header {
     margin-top: 0px;
     white-space: nowrap;
 }
-header .col-xs-12 {
-    text-align: center;
-    line-height: 50px;
-}
-header .col-sm-8 {
-    float: left;
-}
-.btn .btn-primary { 
+.btn .btn-warning { 
        font-size: 20px;
        font-weight: bold;
        font-family: "Avenir Medium", "Muli", "Questrial";
        background-color: #9F418F;
        border-color: #9F418F;
+       margin-left: 10px;
 }
 .button p {
     font-size: 14px;
     font-weight: bold;
     font-family: "Avenir Medium", "Muli", "Questrial";
 }
-
+#logo .logoimg {
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+}
+#logo .icons {
+    font-size: 30px;
+    float: right;
+    margin-right: 15px;
+}
 /*Logo and Header Ends*/
 
 
 /*Video Starts*/
 #videogrp {
     text-align: center;
+    margin-bottom: -45px;
 }
 #video {
     width: auto;
     text-align: center;
     max-height: 400px;
     height: auto;
-    margin-top: -20px;
+    margin-top: -20px;   
 }
-.btn.sharp {
-	border-radius: 0;
+#videogrp h4 {
+    z-index: 1000;
+    position: relative;
+    top:-300px;
+    margin-bottom: -100px;
+    padding-bottom: -200px; 
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
+    font-family: "Avenir Light", "Muli", "Questrial";
+    font-size: 25px;
+    line-height: 30px;
+    text-shadow: black;
 }
-.btn.outline {
-	background: none;
-	padding: 12px 22px;
-    text-align: center;
-}
-.btn-warning.outline {
-	border: 2px solid #eb8f34;
-	color: #eb8f34;
-}
-.btn-warning.outline:hover, 
-.btn-warning.outline:focus, 
-.btn-warning.outline:active, 
-.btn-warning.outline.active, 
-.open > .dropdown-toggle.btn-warning {
-	border-color: #eba259;
-	color: #eba259;
-}
-.btn-warning.outline:active, .btn-warning.outline.active {
-	border-color: #b87430;
-	color: #b87430;
-	box-shadow: none;
+#videogrp a {
+    z-index: 1000;
+    position: relative;
+    top:-90px;
+    padding-bottom: -200px; 
+    font-size: 20px;
+    font-kerning: 50px;
 }
 /*Video Ends*/
 
 
-/*Social Email/Icons Starts*/
+/*EMAIL*/
 .signup-1 {
     text-align: center;
     padding-top: 12px;
+    margin-bottom: 12px;
 }
 .signup-1 .icons {
     font-size: 25px;
     display: inline-block;
     padding-top: 4px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     color: #5B5C5C;
     display: inline-block;
 }
 .email-wrap fa {
     color: #5B5C5C;
 }
+/*Email/Icons Ends*/
 
-
-/*Social Email/Icons Ends*/
-
-.input-group .margin-bottom-sm {
-    text-align: center;
-    width: 100px;
-}
-a {
-	text-decoration: none;
-	color: #FFFFFF;
-}
-
-h2 {
-    font-family: "Avenir Medium", "Muli", "Questrial";
-	font-style: normal;
-	font-weight: 200;
-	text-align: center;
-	margin-left: 8%;
-	margin-right: 8%;
-    font-size: 10px;
-}
-h3 {
-    font-family: "Avenir Medium", "Muli", "Questrial";
-	font-style: normal;
-	font-weight: bolder;
-	text-align: center;
-	margin-left: 5%;
-	margin-right: 5%;
-	font-size: 1em;
-}
-/*h4 {*/
-	/*text-align: center;
-	font-weight: 200;
-	border-style: solid;
-	font-family: 'Avenir Light';
-	font-style: normal;
-	margin-left: 42%;
-	margin-right: 42%;
-	border-width: 1px;
-}*/
 
 /*About Section Starts*/
 #about {
@@ -240,6 +210,7 @@ h3 {
     text-align: center;
     margin-left: 25px;
     margin-right: 25px;
+    margin-bottom: 10px;
 }
 
 #how h3 { 
@@ -253,6 +224,7 @@ h3 {
     font-size: 15px;
     margin-bottom: 30px;
     margin-top: 20px;
+    line-height: 30px;
 }
 /*#how p {
     text-align: center;
@@ -265,6 +237,7 @@ h3 {
     padding-left: 30px;
     padding-right: 30px;
     text-transform: uppercase;
+    font-size: 11.5px;
 }
 #how .splitter {
     margin-top: -25px;
@@ -282,6 +255,7 @@ h3 {
     padding-bottom: 20px;
     padding-left: 15px;
     padding-right: 15px;
+    font-family: "Avenir Light", "Muli", "Questrial";
 }
 #involve h5 {
     color: #3F403F;
@@ -294,7 +268,7 @@ h3 {
     padding-right: 20px;
     line-height: 25px;
 }
-#involve button {
+#involve .btn {
     margin-bottom: 20px;
     margin-top: 10px;
 }
@@ -316,15 +290,15 @@ h3 {
 #projects h4 {
     margin-top: 35px;
 }
-#projects button {
+#projects a {
     margin-top: 0px;
-    margin-bottom: 25px;
+    margin-bottom: 0px;
     clear: both;
 }
 #projects .splitter {
     text-align: center;
     font-size: 10px;
-    margin-top: -25px;
+    margin-top: -15px;
 }
 /*Project Section Ends*/
 
@@ -394,21 +368,3 @@ footer {
 }
 
 /*Footer Section Ends*/
-/*.triangle {
-    width: 0;
-    height: 0;
-    border-left: 52px solid transparent;
-    border-right: 52px solid transparent;
-    border-bottom: 52px solid transparent;
-    position: absolute;
-    top: -51px;
-    left: 50%;
-    margin-left: -52px;
-    font: 12px Arial;
-    line-height: 100px;
-}*/
-
-
-
-
-	
