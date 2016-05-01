@@ -8,6 +8,8 @@ body {
     font-family: "Avenir Light", "Muli", "Questrial";
 	font-style: normal;
     color: white;
+    font-kerning: 15px;
+    text-align: center;
 }
 h1 {
    font-family: "Avenir Light", "Muli", 
@@ -111,7 +113,6 @@ header {
     top:-90px;
     padding-bottom: -200px; 
     font-size: 20px;
-    font-kerning: 50px;
 }
 /*Video Ends*/
 
@@ -144,6 +145,7 @@ header {
 	padding-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 .aboutus {
     text-align: center;
@@ -153,34 +155,41 @@ header {
 }
 #about h1 {
       font-family: "Avenir Medium", "Muli", "Questrial";
-      font-size: 25px;
-      line-height: 45px;
+      font-size: 20px;
+      line-height: 35px;
 }
 .mission {
     text-align: center;
     margin-left: 110px;
     margin-right: 110px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 #about h2 {
        font-family: "Avenir Medium", "Muli", "Questrial";
-       font-size: 20px;
+       font-size: 16px;
        line-height: 30px;
 }
 #about img {
     margin-bottom: -10px;
 }
-/*#about .triangle-down {
-	width: 0;
-	height: 0;
+/*About Section Ends*/
+
+#triangle1 {
+    text-align: center;
+}
+
+#triangle1 .triangle-down {
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
-	border-top: 100px solid red;
-    text-align: center;
+	border-top: 50px solid #3F403F;
     display: inline-block;
-    font-size: 20px;
-}*/
-/*About Section Ends*/
+    font-size: x-small;
+    position: relative;
+    top: -40px;
+    z-index: 1000;
+    margin-bottom: -50px;
+    padding-bottom: -90px;
+}
 
 
 /*Image Section Starts*/
@@ -190,7 +199,8 @@ header {
     height: auto;
     margin-top: 0px; 
     width: auto;
-    /*background-image: url(media/forbrands.jpg)*/
+    padding-top: -20px;
+    margin-top: -20px;
 }
 /*Image Sections Ends*/
 
@@ -218,6 +228,7 @@ header {
     font-weight: bolder;
     padding-top: 10px;
     text-align: center;
+    font-size: 22px;
 }
 #how h4 {
     text-align: center;
@@ -226,11 +237,9 @@ header {
     margin-top: 20px;
     line-height: 30px;
 }
-/*#how p {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 12px;
-}*/
+#how .buttonNav{
+    font-size: 15px;
+}
 #how .thumbnail {
     border: 0 none;
     box-shadow: none;
@@ -245,17 +254,36 @@ header {
 }
 /*How Section Ends*/
 
+#triangle2 {
+    text-align: center;
+}
+
+#triangle2 .triangle-down {
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 50px solid white;
+    display: inline-block;
+    font-size: x-small;
+    position: relative;
+    top: -20px;
+    z-index: 1000;
+    margin-bottom: -50px;
+    padding-bottom: -90px;
+}
 
 /*Involve Section Starts*/
 #involve {
     background: #BCBAB5;
     color: white;
-    padding-top: 12px;
+    padding-top: 30px;
     text-align: center;
     padding-bottom: 20px;
     padding-left: 15px;
     padding-right: 15px;
     font-family: "Avenir Light", "Muli", "Questrial";
+}
+#involve h3{
+    font-size: 22px;
 }
 #involve h5 {
     color: #3F403F;
@@ -271,8 +299,26 @@ header {
 #involve .btn {
     margin-bottom: 20px;
     margin-top: 10px;
+    font-size: 15px;
 }
 /*Involve End Starts*/
+
+#triangle3 {
+    text-align: center;
+}
+#triangle3 .triangle-down {
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 50px solid #BCBAB5;
+    display: inline-block;
+    font-size: x-small;
+    position: relative;
+    top: -40px;
+    z-index: 1000;
+    margin-bottom: -50px;
+    padding-bottom: -90px;
+}
+
 
 
 /*Project Section Starts*/
@@ -282,6 +328,8 @@ header {
     color: white;
     line-height: 50px;
     font-family: "Avenir Light", "Muli", "Questrial";
+    margin-top: -20px;
+    padding-top: 15px;
 }
 #projects img {
     max-height: 274px;
