@@ -400,9 +400,10 @@ footer {
 }
 .text-muted {
    font-family: "Muli", "Questrial", "Avenir Medium";
-   margin-top: 9px;
+   margin-top: 8px;
    float: left;
    margin-left: 20px;
+   font-size: 14px;
 }
 .signup-2 {
     float: right;
