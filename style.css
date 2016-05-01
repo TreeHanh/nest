@@ -248,6 +248,10 @@ header {
     text-transform: uppercase;
     font-size: 11.5px;
 }
+.thumbnail:hover {
+    text-decoration:underline;
+    
+}
 #how .splitter {
     margin-top: -25px;
     margin-bottom: -20px;
@@ -303,23 +307,6 @@ header {
 }
 /*Involve End Starts*/
 
-#triangle3 {
-    text-align: center;
-}
-#triangle3 .triangle-down {
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	border-top: 50px solid #BCBAB5;
-    display: inline-block;
-    font-size: x-small;
-    position: relative;
-    top: -40px;
-    z-index: 1000;
-    margin-bottom: -50px;
-    padding-bottom: -90px;
-}
-
-
 
 /*Project Section Starts*/
 #projects {
@@ -329,11 +316,9 @@ header {
     line-height: 50px;
     font-family: "Avenir Light", "Muli", "Questrial";
     margin-top: -20px;
-    padding-top: 15px;
 }
 #projects img {
     max-height: 274px;
-    max-width: inherit;
 }  
 #projects h4 {
     margin-top: 35px;
@@ -374,17 +359,35 @@ header {
 }
 /*Contact Section Ends*/
 
+#triangle3 {
+    text-align: center;
+}
+#triangle3 .triangle-down {
+	border-left: 45px solid transparent;
+	border-right: 45px solid transparent;
+	border-top: 30px solid #5B5C5C;
+    display: inline-block;
+    font-size: x-small;
+    position: relative;
+    top: -46px;
+    z-index: 1000;
+    margin-bottom: -50px;
+    padding-bottom: -90px;
+}
 
 /*Footer Section Starts*/
 #backtotop {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 10px;
     font-size: 12px;
 }
-#backtotop img {
+/*#backtotop img {
     margin-top: -40;
     margin-bottom:-20px;
+}*/
+#backtotop:hover {
+    text-decoration: underline;
 }
 
 footer {
