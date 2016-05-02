@@ -278,19 +278,25 @@ header {
 #involve {
     background: #BCBAB5;
     color: white;
-    padding-top: 30px;
+    padding-top: 25px;
     text-align: center;
     padding-bottom: 20px;
     padding-left: 15px;
     padding-right: 15px;
     font-family: "Avenir Light", "Muli", "Questrial";
+    padding-bottom: 30px;
+}
+#involve .col-md-4 {
+    border-top: dotted;
+    border-right: dotted;
+    border-width: 1px;
 }
 #involve h3{
     font-size: 22px;
 }
 #involve h5 {
     color: #3F403F;
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 17px;
 }
 #involve p {
