@@ -237,9 +237,6 @@ header {
     margin-top: 20px;
     line-height: 30px;
 }
-#how .buttonNav{
-    font-size: 15px;
-}
 #how .thumbnail {
     border: 0 none;
     box-shadow: none;
@@ -249,12 +246,14 @@ header {
     font-size: 11.5px;
 }
 .thumbnail:hover {
-    text-decoration:underline;
-    
+    text-decoration:underline;  
 }
 #how .splitter {
     margin-top: -25px;
     margin-bottom: -20px;
+}
+#how .btn btn-success {
+     font-size: x-small;
 }
 /*How Section Ends*/
 
@@ -420,3 +419,7 @@ footer {
 }
 
 /*Footer Section Ends*/
+
+.resrc {
+    width: 100%
+}
