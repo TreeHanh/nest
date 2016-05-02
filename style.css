@@ -211,8 +211,6 @@ header {
     text-align: center;
     padding-top: 15px;
     line-height: 50px;
-    padding-left: 60px;
-    padding-right: 60px;
 }
 #how {
     background-color: white;
@@ -419,7 +417,6 @@ footer {
 }
 .signup-2 {
     float: right;
-    padding-right: 50;
     margin-top: 5px;
     font-size: small;
     margin-right: 20px;
